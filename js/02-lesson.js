@@ -63,20 +63,74 @@
 
 // Тернарные операторы ================================================
 
-const carType = prompt("Enter car type")
-// const isCarExpensive = carType === 'bugatti' ? true : false;
-const isCarExpensive = carType === 'bugatti';
+// const carType = prompt("Enter car type")
+// // const isCarExpensive = carType === 'bugatti' ? true : false;
+// const isCarExpensive = carType === 'bugatti';
 
 
-let myMoney;
-if (isCarExpensive) {
-    myMoney = 0;
-}
-else {
-    myMoney = 5000;
-}
+// let myMoney;
+// if (isCarExpensive) {
+//     myMoney = 0;
+// }
+// else {
+//     myMoney = 5000;
+// }
 
-// упрощенно
-// const myMoney = isCarExpensive ? 0 : 5000;
+// // упрощенно
+// // const myMoney = isCarExpensive ? 0 : 5000;
     
-console.log(`my money ${myMoney}`);
+// console.log(`my money ${myMoney}`);
+
+
+// *** Циклы ===========================
+
+//* while =============
+// let i = 0;
+// while (i < 10)
+// {
+//     console.log(`id is ${i}`);
+//     i += 1;
+// }
+
+// let i = 0;
+// while (i < 10)
+// {
+//     console.log(`id is ${i}`);
+//     if (i === 3) {
+//         i += 3;
+//         continue;
+//     }
+//     if (i === 5) {
+//         break;
+// }
+
+//     i += 1;
+// }
+
+
+// * do while ===============
+
+// let salary = 4000;
+// do {
+//     salary -= 1000;
+// console.log(`Salary is ${salary}`);
+// } while (salary >0)
+
+// * for ==============
+
+// for (let i = 0; i < 10; i += 1){
+//     console.log(`Index is ${i}`);
+// }
+
+
+// ! калькулятор =============
+// const userInput = prompt('we calc all')
+// const result = eval(userInput)
+// console.log(result);
+ 
+// while (confirm('Do you want calc more?')) {
+//     const userInput = prompt('we calc all');
+//     const result = eval(userInput);
+//     console.log(result);
+// }
+
